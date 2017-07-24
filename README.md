@@ -1,6 +1,8 @@
 # pytorch-MNIST-cGAN-cDCGAN
 Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] and conditional Generative Adversarial Networks (cDCGAN; it will be update soon) for MNIST [2] dataset
 
+* The network architecture (number of layer, layer size and activation function etc.) of this code differs from the paper.
+
 * you can download
   - MNIST dataset: http://yann.lecun.com/exdb/mnist/
 
