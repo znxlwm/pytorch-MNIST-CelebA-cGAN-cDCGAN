@@ -1,5 +1,5 @@
-# pytorch-MNIST-cGAN
-Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] for MNIST [2] dataset
+# pytorch-MNIST-cGAN-cDCGAN
+Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] and conditional Generative Adversarial Networks (cDCGAN; it will be update soon) for MNIST [2] dataset
 
 * you can download
   - MNIST dataset: http://yann.lecun.com/exdb/mnist/
@@ -8,7 +8,16 @@ Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] fo
 ### MNIST
 * Generate using fixed noise (fixed_z_)
 
-![MNIST](MNIST_cGAN_results/generation_animation.gif)
+<table align='center'>
+<tr align='center'>
+<td> cGAN</td>
+<td> cDCGAN</td>
+</tr>
+<tr>
+<td><img src = 'MNIST_cGAN_results/generation_animation.gif'>
+<td><img src = 'MNIST_cDCGAN_results/generation_animation.gif'>
+</tr>
+</table>
 
 * MNIST vs Generated images
 
@@ -16,15 +25,18 @@ Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] fo
 <tr align='center'>
 <td> MNIST </td>
 <td> cGAN after 50 epochs </td>
+<td> cDCGAN after 20 epochs </td>
 </tr>
 <tr>
 <td><img src = 'MNIST_cGAN_results/raw_MNIST.png'>
 <td><img src = 'MNIST_cGAN_results/MNIST_cGAN_50.png'>
+<td><img src = 'MNIST_cDCGAN_results/MNIST_cGAN_50.png'>
 </tr>
 </table>
 
 * Learning Time
   * MNIST cGAN - Avg. per epoch: 9.13 sec; Total 50 epochs: 937.06 sec
+  * MNIST cDCGAN - Avg. per epoch: x.x sec; Total 20 epochs: x.x sec
 
 
 ## Development Environment
