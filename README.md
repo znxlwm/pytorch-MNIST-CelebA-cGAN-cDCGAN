@@ -18,7 +18,7 @@ Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] fo
 <td> cGAN after 50 epochs </td>
 </tr>
 <tr>
-<td><img src = 'MNIST_GAN_results/raw_MNIST.png'>
+<td><img src = 'MNIST_cGAN_results/raw_MNIST.png'>
 <td><img src = 'MNIST_cGAN_results/MNIST_cGAN_50.png'>
 </tr>
 </table>
