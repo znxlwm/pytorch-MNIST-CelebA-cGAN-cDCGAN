@@ -178,7 +178,6 @@ train_hist['D_losses'] = []
 train_hist['G_losses'] = []
 train_hist['per_epoch_ptimes'] = []
 train_hist['total_ptime'] = []
-num_iter = 0
 
 print('training start!')
 start_time = time.time()
@@ -250,8 +249,6 @@ for epoch in range(train_epoch):
         G_optimizer.step()
 
         G_losses.append(G_train_loss.data[0])
-
-        num_iter += 1
 
     epoch_end_time = time.time()
     per_epoch_ptime = epoch_end_time - epoch_start_time
