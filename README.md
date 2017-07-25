@@ -38,7 +38,7 @@ Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] an
 
 * Learning Time
   * MNIST cGAN - Avg. per epoch: 9.13 sec; Total 50 epochs: 937.06 sec
-  * MNIST cDCGAN - Avg. per epoch: x.x sec; Total 20 epochs: x.x sec
+  * MNIST cDCGAN - Avg. per epoch: 47.16 sec; Total 20 epochs: 1024.26 sec
 
 
 ## Development Environment
