@@ -17,7 +17,7 @@ Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] an
 </tr>
 <tr>
 <td><img src = 'MNIST_cGAN_results/generation_animation.gif'>
-<td><img src = 'MNIST_cDCGAN_results/generation_animation.gif'>
+<td><img src = 'MNIST_cDCGAN_results/MNIST_cDCGAN_generation_animation.gif'>
 </tr>
 </table>
 
@@ -32,7 +32,7 @@ Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] an
 <tr>
 <td><img src = 'MNIST_cGAN_results/raw_MNIST.png'>
 <td><img src = 'MNIST_cGAN_results/MNIST_cGAN_50.png'>
-<td><img src = 'MNIST_cDCGAN_results/MNIST_cGAN_50.png'>
+<td><img src = 'MNIST_cDCGAN_results/MNIST_cDCGAN_20.png'>
 </tr>
 </table>
 
