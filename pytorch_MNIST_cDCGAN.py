@@ -193,7 +193,6 @@ fill = torch.zeros([10, 10, img_size, img_size])
 for i in range(10):
     fill[i, i, :, :] = 1
 
-num_iter = 0
 print('training start!')
 start_time = time.time()
 for epoch in range(train_epoch):
@@ -269,8 +268,6 @@ for epoch in range(train_epoch):
         G_optimizer.step()
 
         G_losses.append(G_train_loss.data[0])
-
-        num_iter += 1
 
     epoch_end_time = time.time()
     per_epoch_ptime = epoch_end_time - epoch_start_time
