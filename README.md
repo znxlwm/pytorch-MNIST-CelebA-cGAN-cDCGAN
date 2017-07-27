@@ -61,7 +61,7 @@ Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] an
 </tr>
 </table>
 
-* CelebA cDCGAN morphing (interpolated noise values)
+* CelebA cDCGAN morphing (noise interpolation)
 ![morphing](CelebA_cDCGAN_results/CelebA_cDCGAN_morp.png)
 
 * Learning Time
