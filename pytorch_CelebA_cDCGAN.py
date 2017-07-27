@@ -163,7 +163,7 @@ def show_train_hist(hist, show = False, save = False, path = 'Train_hist.png'):
     else:
         plt.close()
 
-def show_noise_warp(show=False, save=False, path='result.png'):
+def show_noise_morp(show=False, save=False, path='result.png'):
     source_z_ = torch.randn(10, 100)
     z_ = torch.zeros(100, 100)
     for i in range(5):
@@ -368,4 +368,4 @@ for e in range(train_epoch):
     images.append(imageio.imread(img_name))
 imageio.mimsave(root + model + 'generation_animation.gif', images, fps=5)
 
-show_noise_warp(save=True, path=root + model + 'warp.png')
+show_noise_morp(save=True, path=root + model + 'warp.png')
