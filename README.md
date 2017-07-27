@@ -1,10 +1,11 @@
-# pytorch-MNIST-cGAN-cDCGAN
-Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] and conditional Generative Adversarial Networks (cDCGAN; it will be update soon) for MNIST [2] dataset
+# pytorch-MNIST-CelebA-cGAN-cDCGAN
+Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] and conditional Generative Adversarial Networks (cDCGAN; it will be update soon) for MNIST [2] and CelebA [3] datasets.
 
 * The network architecture (number of layer, layer size and activation function etc.) of this code differs from the paper.
 
 * you can download
   - MNIST dataset: http://yann.lecun.com/exdb/mnist/
+  - CelebA dataset: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 ## Resutls
 ### MNIST
@@ -40,6 +41,30 @@ Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] an
   * MNIST cGAN - Avg. per epoch: 9.13 sec; Total 50 epochs: 937.06 sec
   * MNIST cDCGAN - Avg. per epoch: 47.16 sec; Total 20 epochs: 1024.26 sec
 
+### CelebA
+* Generate using fixed noise (fixed_z_)
+
+![CelebA](CelebA_cDCGAN_results/CelebA_cDCGAN_generation_animation.gif)
+
+* CelebA vs Generated images
+
+<table align='center'>
+<tr align='center'>
+<td> CelebA </td>
+<td> cDCGAN after 20 epochs </td>
+</tr>
+<tr>
+<td><img src = 'CelebA_cDCGAN_results/raw_CelebA.png'>
+<td><img src = 'CelebA_cDCGAN_results/CelebA_cDCGAN_20.png'>
+</tr>
+</table>
+
+* CelebA cDCGAN morphing (interpolated noise values)
+
+![morphing](CelebA_cDCGAN_results/CelebA_cDCGAN_morp.png)
+
+* Learning Time
+  * CelebA DCGAN - Avg. per epoch: 732.54 sec; total 20 epochs ptime: 14744.66 sec
 
 ## Development Environment
 
@@ -59,3 +84,5 @@ Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] an
 (Full paper: https://arxiv.org/pdf/1411.1784.pdf)
 
 [2] Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. "Gradient-based learning applied to document recognition." Proceedings of the IEEE, 86(11):2278-2324, November 1998.
+
+[3] Liu, Ziwei, et al. "Deep learning face attributes in the wild." Proceedings of the IEEE International Conference on Computer Vision. 2015.
