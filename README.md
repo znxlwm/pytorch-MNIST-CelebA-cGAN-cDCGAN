@@ -3,6 +3,8 @@ Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] an
 
 * The network architecture (number of layer, layer size and activation function etc.) of this code differs from the paper.
 
+* CelebA dataset used gender lable as condition.
+
 * you can download
   - MNIST dataset: http://yann.lecun.com/exdb/mnist/
   - CelebA dataset: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
