@@ -1,5 +1,5 @@
 # pytorch-MNIST-CelebA-cGAN-cDCGAN
-Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] and conditional Generative Adversarial Networks (cDCGAN) for MNIST [2] and CelebA [3] datasets.
+Pytorch implementation of conditional Generative Adversarial Networks (cGAN) [1] and conditional Generative Adversarial Networks (cDCGAN) for MNIST [2] and CelebA [3] datasets.
 
 * The network architecture (number of layer, layer size and activation function etc.) of this code differs from the paper.
 
