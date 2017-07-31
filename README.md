@@ -65,7 +65,7 @@ Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] an
 ![morphing](CelebA_cDCGAN_results/CelebA_cDCGAN_morp.png)
 
 * Learning Time
-  * CelebA DCGAN - Avg. per epoch: 826.69 sec; total 20 epochs ptime: 16564.10 sec
+  * CelebA cDCGAN - Avg. per epoch: 826.69 sec; total 20 epochs ptime: 16564.10 sec
 
 ## Development Environment
 
