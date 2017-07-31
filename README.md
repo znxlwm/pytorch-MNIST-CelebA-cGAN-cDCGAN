@@ -44,7 +44,8 @@ Pytorch implementation conditional Generative Adversarial Networks (cGAN) [1] an
   * MNIST cDCGAN - Avg. per epoch: 47.16 sec; Total 20 epochs: 1024.26 sec
 
 ### CelebA
-* Generate using fixed noise (fixed_z_; odd line - female (y: 0) & even line - male (y: 1); each two lines have the same style (1-2) & (3-4).)
+* Generate using fixed noise (fixed_z_; odd line - female (y: 0) & even line - male (y: 1); 
+each two lines have the same style (1-2) & (3-4).)
 
 ![CelebA](CelebA_cDCGAN_results/CelebA_cDCGAN_generation_animation.gif)
 
