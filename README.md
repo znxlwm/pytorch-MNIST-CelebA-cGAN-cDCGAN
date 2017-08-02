@@ -5,6 +5,8 @@ Pytorch implementation of conditional Generative Adversarial Networks (cGAN) [1]
 
 * CelebA dataset used gender lable as condition.
 
+* If you want to train using cropped CelebA dataset, you have to change isCrop = False to isCrop = True.
+
 * you can download
   - MNIST dataset: http://yann.lecun.com/exdb/mnist/
   - CelebA dataset: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
@@ -46,7 +48,16 @@ Pytorch implementation of conditional Generative Adversarial Networks (cGAN) [1]
 ### CelebA
 * Generate using fixed noise (fixed_z_; odd line - female (y: 0) & even line - male (y: 1); each two lines have the same style (1-2) & (3-4).)
 
-![CelebA](CelebA_cDCGAN_results/CelebA_cDCGAN_generation_animation.gif)
+<table align='center'>
+<tr align='center'>
+<td> cDCGAN</td>
+<td> cDCGAN crop</td>
+</tr>
+<tr>
+<td><img src = 'CelebA_cDCGAN_results/CelebA_cDCGAN_generation_animation.gif'>
+<td><img src = 'CelebA_cDCGAN_crop_results/CelebA_cDCGAN_crop_generation_animation.gif'>
+</tr>
+</table>
 
 * CelebA vs Generated images
 
@@ -54,15 +65,26 @@ Pytorch implementation of conditional Generative Adversarial Networks (cGAN) [1]
 <tr align='center'>
 <td> CelebA </td>
 <td> cDCGAN after 20 epochs </td>
+<td> cDCGAN crop after 30 epochs </td>
 </tr>
 <tr>
 <td><img src = 'CelebA_cDCGAN_results/raw_CelebA.png'>
 <td><img src = 'CelebA_cDCGAN_results/CelebA_cDCGAN_20.png'>
+<td><img src = 'CelebA_cDCGAN_crop_results/CelebA_cDCGAN_crop_30.png'>
 </tr>
 </table>
 
 * CelebA cDCGAN morphing (noise interpolation)
-![morphing](CelebA_cDCGAN_results/CelebA_cDCGAN_morp.png)
+<table align='center'>
+<tr align='center'>
+<td> cDCGAN </td>
+<td> cDCGAN crop </td>
+</tr>
+<tr>
+<td><img src = 'CelebA_cDCGAN_results/CelebA_cDCGAN_morp.png'>
+<td><img src = 'CelebA_cDCGAN_crop_results/CelebA_cDCGAN_crop_morp.png'>
+</tr>
+</table>
 
 * Learning Time
   * CelebA cDCGAN - Avg. per epoch: 826.69 sec; total 20 epochs ptime: 16564.10 sec
