@@ -11,6 +11,15 @@ Pytorch implementation of conditional Generative Adversarial Networks (cGAN) [1]
   - MNIST dataset: http://yann.lecun.com/exdb/mnist/
   - CelebA dataset: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
+## Implementation details
+* GAN
+
+![GAN](pytorch_cGAN.png)
+
+* DCGAN
+
+![Loss](pytorch_cDCGAN.png)
+
 ## Resutls
 ### MNIST
 * Generate using fixed noise (fixed_z_)
