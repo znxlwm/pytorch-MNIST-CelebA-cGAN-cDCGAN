@@ -12,11 +12,11 @@ Pytorch implementation of conditional Generative Adversarial Networks (cGAN) [1]
   - CelebA dataset: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 ## Implementation details
-* GAN
+* cGAN
 
 ![GAN](pytorch_cGAN.png)
 
-* DCGAN
+* cDCGAN
 
 ![Loss](pytorch_cDCGAN.png)
 
